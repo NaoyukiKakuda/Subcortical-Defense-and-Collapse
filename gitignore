@@ -1,0 +1,26 @@
+# =============================================
+#  .gitignore
+# =============================================
+
+# Config (contains local paths — copy from project_config_example.py)
+project_config.py
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large / private)
+*.npy
+*.npz
+*.nii
+*.nii.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS
+.DS_Store
+Thumbs.db
